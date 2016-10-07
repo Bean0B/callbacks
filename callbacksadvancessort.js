@@ -6,12 +6,12 @@ var students = [
 ];
 
 var sortThem = students.sort(function(a, b){
-    if (a.name > b.name)
+  if (a.name > b.name)
         return 1
-    if (a.name === b.name)
-    return b.age-a.age
+  if (a.name === b.name)
+   return b.age-a.age
 
-    return 0
+   return 0
 });
 
 
